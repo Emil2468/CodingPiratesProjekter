@@ -5,4 +5,4 @@ class Bird():
         
     def show(self):
         fill(0,255,255)
-        rect(10,50,self.pos.x, self.pos.y)
+        rect(self.pos.x, self.pos.y,10,50)
